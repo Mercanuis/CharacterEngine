@@ -20,13 +20,13 @@ namespace CharacterEngine
 
     struct Attribute
     {
-        public Attribute(int str, int dex, int con, int intel, int wi, int chr)
+        public Attribute(int str, int dex, int con, int intel, int wis, int chr)
         {
             Strength = str;
             Dexterity = dex;
             Constitution = con;
             Intelligence = intel;
-            Wisdom = wi;
+            Wisdom = wis;
             Charisma = chr;
         }
 
